@@ -27,32 +27,14 @@ class DigitalSeeder extends Seeder
             'descarga' => 1
         ]);
         DB::table('mod_digital')->insert([
+            'name' => "Plantilla Andalién Sur",
+            'url' => "https://drive.google.com/file/d/1C8Bew2kydIV7b1s83NPhrXPrTaK5iPzR/view?usp=sharing",
+            'formato_id' => 4,
+            'descarga' => 1
+        ]);
+        DB::table('mod_digital')->insert([
             'name' => "Carpeta Oficio Modelo A",
             'url' => "https://drive.google.com/file/d/1JaXRVrI8Rn2wnICPxTeOme5v0PvruT_6/view?usp=sharing",
-            'formato_id' => 1,
-            'descarga' => 1
-        ]);
-        DB::table('mod_digital')->insert([
-            'name' => "Carpeta Oficio Modelo B",
-            'url' => "https://drive.google.com/file/d/1_N0ETS9-yAYNCB3GpbX8wUFJ-6-PgX8D/view?usp=sharing",
-            'formato_id' => 1,
-            'descarga' => 1
-        ]);
-        DB::table('mod_digital')->insert([
-            'name' => "Chaquetas",
-            'url' => "https://drive.google.com/file/d/1wb7YOHPKmqdlyyhCOWz9QnTx1SUKLNnL/view?usp=sharing",
-            'formato_id' => 1,
-            'descarga' => 1
-        ]);
-        DB::table('mod_digital')->insert([
-            'name' => "Credencial de Identificación v2",
-            'url' => "https://drive.google.com/file/d/12Jd58kCM1XU_sFE2UNAGaXNuPLvRhchl/view?usp=sharing",
-            'formato_id' => 1,
-            'descarga' => 1
-        ]);
-        DB::table('mod_digital')->insert([
-            'name' => "Folleto base",
-            'url' => "https://drive.google.com/file/d/1j18U2eU8q-6W2LTy31w-zvNcIHKrvvOw/view?usp=sharing",
             'formato_id' => 1,
             'descarga' => 1
         ]);
@@ -69,11 +51,62 @@ class DigitalSeeder extends Seeder
             'descarga' => 1
         ]);
         DB::table('mod_digital')->insert([
+            'name' => "Carpeta Oficio Modelo B",
+            'url' => "https://drive.google.com/file/d/1_N0ETS9-yAYNCB3GpbX8wUFJ-6-PgX8D/view?usp=sharing",
+            'formato_id' => 1,
+            'descarga' => 1
+        ]);
+        DB::table('mod_digital')->insert([
+            'name' => "Iconos - Otros",
+            'url' => "https://drive.google.com/file/d/1CcBFyE34btYGvGeg3NfvF3IkShyhMbym/view?usp=sharing",
+            'formato_id' => 5,
+            'descarga' => 1
+        ]);
+        DB::table('mod_digital')->insert([
+            'name' => "Chaquetas",
+            'url' => "https://drive.google.com/file/d/1wb7YOHPKmqdlyyhCOWz9QnTx1SUKLNnL/view?usp=sharing",
+            'formato_id' => 1,
+            'descarga' => 1
+        ]);
+        
+        DB::table('mod_digital')->insert([
+            'name' => "Credencial de Identificación v2",
+            'url' => "https://drive.google.com/file/d/12Jd58kCM1XU_sFE2UNAGaXNuPLvRhchl/view?usp=sharing",
+            'formato_id' => 1,
+            'descarga' => 1
+        ]);
+        DB::table('mod_digital')->insert([
+            'name' => "Folleto base",
+            'url' => "https://drive.google.com/file/d/1j18U2eU8q-6W2LTy31w-zvNcIHKrvvOw/view?usp=sharing",
+            'formato_id' => 1,
+            'descarga' => 1
+        ]);
+        DB::table('mod_digital')->insert([
             'name' => "Libreta Modelo A",
             'url' => "https://drive.google.com/file/d/1cEBlcaDbwQaZtUR7_DBTgUASLTyFv26S/view?usp=sharing",
             'formato_id' => 1,
             'descarga' => 1
         ]);
+
+        DB::table('mod_digital')->insert([
+            'name' => "Marcos",
+            'url' => "https://drive.google.com/file/d/1Sy5OFUjTQ1FT9pZoDkhKCexBD2EZvl_X/view?usp=sharing",
+            'formato_id' => 5,
+            'descarga' => 1
+        ]);
+        DB::table('mod_digital')->insert([
+            'name' => "Iconos Separados",
+            'url' => "https://drive.google.com/file/d/1Iq521HbEtHP0sXI7bhmRjEqw4ltDuS90/view?usp=sharing",
+            'formato_id' => 5,
+            'descarga' => 1
+        ]);
+        DB::table('mod_digital')->insert([
+            'name' => "Franjas",
+            'url' => "https://drive.google.com/file/d/1Wk-eCyCp2-U-AQOGS4Pc7fqdJLAj_ViO/view?usp=sharing",
+            'formato_id' => 5,
+            'descarga' => 1
+        ]);
+
         DB::table('mod_digital')->insert([
             'name' => "Multimarca",
             'url' => "https://drive.google.com/file/d/1hghKh6uaTIMlb5zu9Nzww6sh_n47eb9E/view?usp=sharing",
@@ -96,12 +129,6 @@ class DigitalSeeder extends Seeder
             'name' => "Pie de Firma",
             'url' => "https://drive.google.com/file/d/18LiBN-erUrUOYRFguKJqg76vcKTwtfU8/view?usp=sharing",
             'formato_id' => 2,
-            'descarga' => 1
-        ]);
-        DB::table('mod_digital')->insert([
-            'name' => "Plantilla Andalién Sur",
-            'url' => "https://drive.google.com/file/d/1C8Bew2kydIV7b1s83NPhrXPrTaK5iPzR/view?usp=sharing",
-            'formato_id' => 4,
             'descarga' => 1
         ]);
         DB::table('mod_digital')->insert([

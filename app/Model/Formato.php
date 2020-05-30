@@ -9,11 +9,13 @@ class Formato extends Model
     protected $table = 'mod_digital_formato';
 
     protected $fillable = [
-        'name', 'desciption', 'url',
+        'name', 
+        'desciption', 
+        'url',
     ];
 
-    public function Digitales()
+    public function digital()
     {
-        return $this->belongsTo(Digital::class);
+         return $this->hasMany(Digital::class); //usar Torre en singular e inicial en mayúsculas al ser el nombre del modelo
     }
 }

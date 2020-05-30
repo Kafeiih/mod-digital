@@ -15,15 +15,22 @@ body {
 
 }
 
-/* Kit digital */
-.card-digital {
-    min-height: 300px;
-}
-
 /* prueba de css panel */
 .title {
     font-size: 84px;
 }
+
+.nav-links {
+    float: right;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+/* Links nav BAr */
 
 .links > a {
     color: #636b6f;
@@ -35,10 +42,68 @@ body {
     text-transform: uppercase;
 }
 
-.nav-links {
-    float: right;
+.links > a.btna:hover {
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.navbar {
-    border-bottom: 1px;
+/****************************
+*
+*  Paleta cromatica SLEP/AS
+*
+*****************************/
+
+/*  Botones Outline */
+.btn-outline-celeste {
+    color: #1f84ec;
+    border-color: #1f84ec;
+}
+.btn-outline-celeste:hover {
+    color: #fff;
+    background-color: #1f84ec;
+}
+
+/* Botones Badge  */
+.badge-btn-rojo:hover {
+    color: #fff;
+    background-color: #ff3c4c;
+}
+.badge-btn-verde:hover {
+    color: #fff;
+    background-color: #90d039;
+}
+.badge-btn-amarillo:hover {
+    color: #fff;
+    background-color: #f8d63c;
+}
+.badge-btn-azul:hover {
+    color: #fff;
+    background-color: #1f84ec;
+}
+.badge-btn-celeste:hover {
+    color: #fff;
+    background-color: #3abff0;
+}
+.badge-btn-rosa:hover {
+    color: #fff;
+    background-color: #dd798a;
+}
+.badge-btn-negro:hover {
+    color: #fff;
+    background-color: #282828;
+}
+
+/* Estilo KIT DIGITAL */
+.card-digital {
+    min-height: 300px;
+}
+
+@media (max-width: 1200px){
+    .prueba {
+      display: none;
+    }
 }

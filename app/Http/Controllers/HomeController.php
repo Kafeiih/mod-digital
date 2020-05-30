@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Model\Digital;
+use App\Model\Formato;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -18,7 +19,7 @@ class HomeController extends Controller
     public function digital()
     {
         //
-        $data = Digital::all();
+        $data = Digital::with('Formato')->get();
         return view('digital.index', compact('data'));
     }
 }

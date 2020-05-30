@@ -10,14 +10,18 @@ class Digital extends Model
     protected $table = 'mod_digital';
 
     protected $fillable = [
-        'name', 'desciption', 'url',
+        'name', 
+        'description', 
+        'url', 
+        'descargar', 
+        'formato_id'
     ];
 
     /**
      * Get the comments for the blog post.
      */
-    public function Formatos()
+    public function formato()
     {
-        return $this->hasMany(Digitales::class);
+        return $this->belongsTo(Formato::class);
     }
 }
