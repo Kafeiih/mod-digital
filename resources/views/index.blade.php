@@ -29,7 +29,9 @@
             <div class="mb-auto">
                 <main role="main">
                     <div class="title mb-4">
+                        
                         Andalién Sur
+                        <h6 class="card-subtitle text-muted">Servicio Local de Educación Pública a cargo de la administración de los jardines, escuelas y liceos públicos de Concepción, Chiguayante, Florida y Hualqui.</h6>
                     </div>
             
                     <div class="links">

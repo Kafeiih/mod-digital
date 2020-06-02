@@ -22,7 +22,7 @@ class DigitalSeeder extends Seeder
         //Graficas
         DB::table('mod_digital')->insert([
             'name' => "Bolsa de regalo",
-            'url' => "https://drive.google.com/file/d/1HimMB-NVPKRvOdfER74gnKKOKj5hLZwa/view?usp=sharing",
+            'url' => "https://drive.google.com/uc?id=1iucQ_R49XoQK3lsDRFp7BE0f2bVnmVP_&export=download",
             'formato_id' => 1,
             'descarga' => 1
         ]);
@@ -34,7 +34,7 @@ class DigitalSeeder extends Seeder
         ]);
         DB::table('mod_digital')->insert([
             'name' => "Carpeta Oficio Modelo A",
-            'url' => "https://drive.google.com/file/d/1JaXRVrI8Rn2wnICPxTeOme5v0PvruT_6/view?usp=sharing",
+            'url' => "https://drive.google.com/uc?id=1_WC-CI_9wl_Arj6-FNr33J31viDHtuRa&export=download",
             'formato_id' => 1,
             'descarga' => 1
         ]);
@@ -52,7 +52,7 @@ class DigitalSeeder extends Seeder
         ]);
         DB::table('mod_digital')->insert([
             'name' => "Carpeta Oficio Modelo B",
-            'url' => "https://drive.google.com/file/d/1_N0ETS9-yAYNCB3GpbX8wUFJ-6-PgX8D/view?usp=sharing",
+            'url' => "https://drive.google.com/uc?id=1TSt-s-CbBfuKcNK6Kc8mHAiPahFcX01n&export=download",
             'formato_id' => 1,
             'descarga' => 1
         ]);
@@ -64,20 +64,20 @@ class DigitalSeeder extends Seeder
         ]);
         DB::table('mod_digital')->insert([
             'name' => "Chaquetas",
-            'url' => "https://drive.google.com/file/d/1wb7YOHPKmqdlyyhCOWz9QnTx1SUKLNnL/view?usp=sharing",
+            'url' => "https://drive.google.com/uc?id=1GVKzqs3DDWn6ZBqgusRBIGZB4a0D05yI&export=download",
             'formato_id' => 1,
             'descarga' => 1
         ]);
         
         DB::table('mod_digital')->insert([
             'name' => "Credencial de Identificación v2",
-            'url' => "https://drive.google.com/file/d/12Jd58kCM1XU_sFE2UNAGaXNuPLvRhchl/view?usp=sharing",
+            'url' => "https://drive.google.com/uc?id=1Xf1Awstt7-2DLerKEYSxRJQqroHZ48Hd&export=download",
             'formato_id' => 1,
             'descarga' => 1
         ]);
         DB::table('mod_digital')->insert([
             'name' => "Folleto base",
-            'url' => "https://drive.google.com/file/d/1j18U2eU8q-6W2LTy31w-zvNcIHKrvvOw/view?usp=sharing",
+            'url' => "https://drive.google.com/uc?id=16XYhUP-WVEsBw7Hsnl6lHtlD5RyozwAn&export=download",
             'formato_id' => 1,
             'descarga' => 1
         ]);
