@@ -18,7 +18,8 @@ class CreateDigitalTable extends Migration
             $table->string('name');
             $table->string('description')->nullable();
             $table->string('url');
-            $table->boolean('descarga');
+            //$table->boolean('descarga'); //Revisar si es necesario
+            $table->boolean('estado');
             $table->unsignedBigInteger('formato_id')->nullable();
             $table->timestamps();
             

@@ -12,14 +12,24 @@ class HomeController extends Controller
     public function index()
     {
         //
-        $data = Digital::all();
         return view('index');
     }
 
     public function digital()
     {
         //
-        $data = Digital::with('Formato')->get();
+        $data = Digital::where('estado', 1)->with([
+            'formato' => function ($query)
+            {
+                $query->select('id', 'url');
+            }
+        ])->get(['id','name','url','formato_id']);
+        
         return view('digital.index', compact('data'));
+    }
+
+    public function prueba()
+    {
+        return view('prueba');
     }
 }
