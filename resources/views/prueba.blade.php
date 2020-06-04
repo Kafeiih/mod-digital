@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 </head>
 <body>
     <div class="bg-cover">
@@ -43,22 +45,17 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 prueba">
-                        <span class="navbar-text">
-                            @yield('description')
-                        </span>
-                    </div>
                 </div>
             </nav>
         </div>
 
-        <div style="top:20rem" class="col-md-12">
+        <div class="prueba col-md-12">
             <div class="text-center">
-                <div class="col-xl-5 col-mg-6 mx-auto">
-                    <h1 class="display-4">Andalién Sur</h1>
+                <div class="col-xl-8 col-md-12 mx-auto">
+                    <h1 class="title">Andalién Sur</h1>
                     <p class="lead">Servicio Local de Educación Pública a cargo de la administración de los jardines, escuelas y liceos públicos de Concepción, Chiguayante, Florida y Hualqui.</p>
                 </div>
-                <div class="col-xl-12 col-lg-12 col-md-12 mx-auto">
+                <div class="links col-lg-12 col-md-12 mx-auto">
                     <a class="btn btn-portaline-rojo mt-2" href="/kitdigital">Kit Digital</a>
                     <a class="btn btn-portaline-verde mt-2" href="/remunerciones">Remuneraciones</a>
                     <a class="btn btn-portaline-amarillo mt-2" href="/correo">Correo</a>
@@ -71,19 +68,17 @@
                
     </div>
 
-
-    <footer class="py-5" style="background-color:#3abff0">
-        <div class="row">
+    <footer class="py-5">
+        <div class="row container mx-auto">
             <div class="col-12 col-md">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
-                <small class="d-block mb-3 text-muted">Jolah</small>
+                <small class="d-block mb-3 text-muted">DAF</small>
             </div>
             <div class="col-4 col-md">
                 <h5>Información</h5>
                 <ul class="list-unstyled text-small">
                     <li><a class="text-muted" href="https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=cbe90eda5ba0175b85dba81b4c8f59e6">Ley Transparecia</a></li>
                     <li><a class="text-muted" href="https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=AJ024">Gobierno Transparente</a></li>
-                    <li><a class="text-muted" href="">Radio Andalién Sur</a></li>
                 </ul>
             </div>
             <div class="col-4 col-md">
@@ -97,10 +92,7 @@
             <div class="col-4 col-md">
                 <h5>Sitio</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Business</a></li>
-                    <li><a class="text-muted" href="#">Education</a></li>
-                    <li><a class="text-muted" href="#">Government</a></li>
-                    <li><a class="text-muted" href="#">Gaming</a></li>
+                    <li><a class="text-muted" href="/">Intranet</a></li>
                 </ul>
             </div>
         </div>

@@ -1,8 +1,3 @@
-/*html,
-body {
-    height: 100%;
-}
-*/
 .bg-cover {
     background-image: url(../images/educacion_publica.png);
     background-attachment: fixed;
@@ -13,11 +8,12 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
     height: 100vh;
+    min-height: 480px;
 }
 
 /* prueba de css panel */
 .title {
-    font-size: 84px;
+    font-size: 5.5rem;
 }
 
 .nav-links {
@@ -30,26 +26,16 @@ body {
     top: 18px;
 }
 
-/* Links nav BAr */
+/* Links nav Bar */
 
 .links > a {
     color: #636b6f;
-    padding: 0 25px;
-    font-size: 13px;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
+
 }
 
-.links > a.btna:hover {
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
 
 /****************************
  *
@@ -125,9 +111,17 @@ body {
     min-height: 300px;
 }
 
-@media (max-width: 1200px){
+.prueba {
+    top: 15rem;
+}
+@media (max-width: 992px){
     .prueba {
-      display: none;
+        top: 0;
+    }
+}
+@media (max-height: 480px){
+    .prueba {
+        top: 0;
     }
 }
 
