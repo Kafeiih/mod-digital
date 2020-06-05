@@ -49,7 +49,7 @@
             </nav>
         </div>
 
-        <div class="prueba col-md-12">
+        <div class="sector-principal col-md-12">
             <div class="text-center">
                 <div class="col-xl-8 col-md-12 mx-auto">
                     <h1 class="title">Andalién Sur</h1>

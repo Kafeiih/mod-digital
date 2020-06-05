@@ -12,7 +12,7 @@ class HomeController extends Controller
     public function index()
     {
         //
-        return view('index');
+        return view('principal.index');
     }
 
     public function digital()
@@ -30,6 +30,6 @@ class HomeController extends Controller
 
     public function prueba()
     {
-        return view('prueba');
+        return view('principal.pagina');
     }
 }

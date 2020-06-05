@@ -1,14 +1,25 @@
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
 .bg-cover {
     background-image: url(../images/educacion_publica.png);
     background-attachment: fixed;
-    font-family: 'Nunito', sans-serif;
+    font-family: sans-serif;
     background-color: #f2f2f2;
     background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-    height: 100vh;
-    min-height: 480px;
+    min-height: 530px;
+}
+.principal{
+    font-family: 'Nunito', sans-serif;
+    height: 90vh;
 }
 
 /* prueba de css panel */
@@ -54,7 +65,6 @@
 }
 
 /* Outline Portada */
-
 .btn-portaline-rojo:hover {
     color: #fff;
     background-color: #ff3c4c;
@@ -106,27 +116,26 @@
     background-color: #282828;
 }
 
-/* Estilo KIT DIGITAL */
-.card-digital {
-    min-height: 300px;
-}
 
-.prueba {
-    top: 15rem;
+/*
+ *
+ *      Sitio Principal
+ *
+ */
+.sector-principal {
+    top: 20%;
 }
-@media (max-width: 992px){
-    .prueba {
-        top: 0;
-    }
-}
-@media (max-height: 480px){
-    .prueba {
+@media (max-width: 570px), (max-height: 730px){
+    .sector-principal {
         top: 0;
     }
 }
 
 /*
  *
- *      Prueba
+ *      Pagina Kit Digital
  *
  */
+.card-digital {
+    min-height: 300px;
+}
