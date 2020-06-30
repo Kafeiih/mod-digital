@@ -19,8 +19,7 @@ class HomeController extends Controller
     {
         //
         $data = Digital::where('estado', 1)->with([
-            'formato' => function ($query)
-            {
+            'formato' => function ($query) {
                 $query->select('id', 'url');
             }
         ])->get(['id','name','url','formato_id']);
@@ -28,8 +27,9 @@ class HomeController extends Controller
         return view('digital.index', compact('data'));
     }
 
-    public function prueba()
+    public function consentimiento()
     {
+        //
         return view('principal.pagina');
     }
 }

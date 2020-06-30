@@ -14,12 +14,10 @@
             </div>
             <div class="links col-lg-12 col-md-12 mx-auto">
                 <a class="btn btn-portaline-rojo mt-2" href="/kitdigital">Kit Digital</a>
-                <a class="btn btn-portaline-verde mt-2" href="/remunerciones">Remuneraciones</a>
-                <a class="btn btn-portaline-amarillo mt-2" href="/correo">Correo</a>
-                <a class="btn btn-portaline-azul mt-2" href="/apoyodocente">Apoyo Docente</a>
-                <a class="btn btn-portaline-celeste mt-2" href="/prueba">Prueba</a>
+                <a class="btn btn-portaline-verde mt-2" href="http://intranetandalien.smc.cl/">Remuneraciones</a>
+                <a class="btn btn-portaline-amarillo mt-2" href="https://mail.google.com/">Correo</a>
+                <a class="btn btn-portaline-azul mt-2" href="{{ url('consentimiento') }}">Classroom</a>
             </div>
-
         </div> 
     </div>
 

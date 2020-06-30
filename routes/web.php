@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@index')->name('index');
 Route::get('/prueba', 'HomeController@prueba')->name('prueba');
 Route::get('/kitdigital', 'HomeController@digital')->name('kitdigital');
-Route::get('/articulo/{id}', 'SiteController@index')->name('site');
+Route::get('/consentimiento', 'HomeController@consentimiento')->name('consentimiento-gsuite');

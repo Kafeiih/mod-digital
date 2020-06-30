@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Los Servicios Locales de Educación Pública serán los sostenedores educacionales que velarán por entregar una educación integral, de calidad y con pertinencia local, centrado en los aprendizajes para el siglo XXI, que entregue oportunidades a todos los niños, niñas y jóvenes en el país para desarrollarse." />
+    <meta name="keywords" content="educacion, biobio, octava, region, chile, liceo, jardin, infantil, escuela, andalien, sur, servicio, local, publica, concepción, chiguyante, hualqui, florida, "/>
     <title>@yield('title') - SLEP Andalién Sur</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -17,7 +19,7 @@
 </head>
 <body>
     <div class="bg-cover">
-        <div class="container @yield('estilo')">
+        <div class="container @yield('estilo') pb-5">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/logotipo.png') }}" height="150" alt="Andalién Sur"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,11 +69,11 @@
         </div>    
     </div>
 
-    <footer class="py-5">
+    <footer class="py-5 pt-5">
         <div class="row container mx-auto">
             <div class="col-12 col-md">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
-                <small class="d-block mb-3 text-muted">DAF</small>
+                <small class="d-block mb-3 text-muted">SLEP</small>
             </div>
             <div class="col-4 col-md">
                 <h5>Información</h5>
@@ -98,4 +100,13 @@
     </footer>
     
 </body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157282406-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'UA-157282406-1');
+</script>
 </html>
